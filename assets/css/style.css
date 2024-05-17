@@ -22,7 +22,9 @@ header{
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
-    width: 100%;    
+    width: 100%;
+    display: flex;justify-content: space-between;
+    align-items: baseline;    
 }
 header a{
     text-decoration: none;
@@ -44,15 +46,27 @@ h1{
 .active{
     border-bottom: 2px dashed #635D5C;
 }
-
+/*Navbar styles with dropdown toggle*/
 nav{
     position: absolute;
     background-color: #ffffff;
     width: 75%;
     box-shadow: 0 2px 2px #4D4948;
     padding: 0 1rem;
-    left: 0;
+    right: 0;
     display: none;
+    top: 100%;
+}
+/*Nav Toggle*/
+#nav-toggle:checked~nav{
+    display: block;
+}
+#nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label{
+    font: 2rem;
 }
 /* Main Content */
 main{
