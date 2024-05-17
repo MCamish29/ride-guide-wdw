@@ -4,6 +4,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+/*General styles*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Header */
 header{
     background-color: lightgreen;
@@ -11,6 +18,8 @@ header{
 /* Main Content */
 main{
     background-color: lightsalmon;
+    /*Make main element take up any surplus space to push footer down*/
+    flex: 1 0 auto;
 }
 /* Footer */
 footer{
