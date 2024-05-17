@@ -18,7 +18,11 @@ body{
 
 /* Header */
 header{
-    background-color: white;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;    
 }
 h1{
     font-family: 'Fugaz One', sans-serif;
