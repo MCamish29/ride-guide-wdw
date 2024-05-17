@@ -20,6 +20,9 @@ body{
 header{
     background-color: white;
 }
+h1{
+    font-family: 'Fugaz One', sans-serif;
+}
 /* Main Content */
 main{
     background-color: lightsalmon;
