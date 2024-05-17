@@ -24,8 +24,14 @@ header{
     z-index: 99;
     width: 100%;    
 }
+header a{
+    text-decoration: none;
+    color: inherit;
+}
 h1{
     font-family: 'Fugaz One', sans-serif;
+    letter-spacing: 3px;
+    color: #4D4948;
 }
 /* Main Content */
 main{
