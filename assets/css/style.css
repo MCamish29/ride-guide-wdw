@@ -84,7 +84,6 @@ footer{
 /*Media query: Large or landscape phones (576px and up)*/
 @media  screen and (min-width:576px)
 {
-
 }
 
 
@@ -107,11 +106,47 @@ footer{
         padding-left: 1rem;
     }
 
+    #menu a:hover{
+        border-bottom: 3px solid #4D4948;
+    }
+
     .nav-toggle-label{
         display: none;
     }
 
     #logo{
-        font-size: 200%;
+        font-size: 200%;      
+        
     }
+    
+    
 }    
+/*Media query: laptops and larger (992px and up) */
+@media screen and (min-width:992px) {
+    #menu a:hover{
+        border-bottom: 3px solid #4D4948;
+    }
+    #logo{
+        font-size: 250%;
+    }
+
+    nav{
+        font-size: 100%;
+    }
+    main{
+        margin-top: 62.4px;
+    }
+   
+}    
+/*Media query: Desktops and larger (1200px and up) */
+@media screen and (min-width:1200px){
+    #logo{
+        font-size: 350%;
+    }
+
+    nav{
+        font-size: 120%;
+    }
+
+
+}
