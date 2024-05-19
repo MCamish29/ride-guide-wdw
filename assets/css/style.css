@@ -67,6 +67,7 @@ nav{
 
 .nav-toggle-label{
     font: 2rem;
+    font-size: 150%;
 }
 /* Main Content */
 main{
@@ -77,7 +78,8 @@ main{
 }
 /* Footer */
 footer{
-    background-color: maroon;
+    background-color: #334367;
+    color: #d4af37;
 }
 
 
