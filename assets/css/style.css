@@ -70,12 +70,20 @@ nav{
     font-size: 150%;
 }
 /* Main Content */
-main{
-    background-color: lightsalmon;
+main{   
     /*Make main element take up any surplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
 }
+/*Hero Section*/
+#hero{
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    width: 100%;
+    height: 800px;
+}
+
+
+
 /* Footer */
 footer{
     background-color: #334367;
@@ -142,6 +150,8 @@ footer{
 @media screen and (min-width:992px) {
     #menu a:hover{
         border-bottom: 3px solid #d4af37;
+        
+        
     }
     #logo{
         font-size: 250%;
@@ -149,6 +159,7 @@ footer{
 
     nav{
         font-size: 100%;
+        
     }
     main{
         margin-top: 62.4px;
@@ -168,7 +179,6 @@ footer{
     main{
         margin-top: 83.51px;
     }
-
 
 }
 
