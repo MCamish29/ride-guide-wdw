@@ -14,6 +14,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    
 }
 
 /* Header */
@@ -99,10 +100,23 @@ main{
 }
 
 /*WDW About*/
-p{
-  color: #334367;  
+#wdw-about p{
+  color: #334367;
   padding:25px 10px ;
+  font-size: 115%;
+  text-align: center;
+
+  
 }
+
+/*Ride Guide About*/
+#rg-about p{
+    color: #334367;
+    padding:10px 10px ;
+    font-size: 110%;
+    text-align: center;
+  }
+
 
 /* Footer */
 footer{
@@ -163,7 +177,18 @@ footer{
     main{
         margin-top: 53.2px;
     }
-    
+    /*WDW About*/
+    #wdw-about p{        
+        font-size: 115%;
+        text-align: center;
+        margin:0px 85px;    
+    }
+  /*Ride Guide About*/
+    #rg-about p{        
+       font-size: 115%;
+        text-align: center;
+        margin:0px 85px;    
+    }
     
 }    
 /*Media query: laptops and larger (992px and up) */
@@ -185,6 +210,7 @@ footer{
         margin-top: 62.4px;
     }
    
+
 }    
 /*Media query: Desktops and larger (1200px and up) */
 @media screen and (min-width:1200px){
@@ -199,6 +225,7 @@ footer{
     main{
         margin-top: 83.51px;
     }
+    
 
 }
 
