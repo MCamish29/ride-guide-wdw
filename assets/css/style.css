@@ -148,5 +148,26 @@ footer{
         font-size: 120%;
     }
 
+    main{
+        margin-top: 83.51px;
+    }
+
+
+}
+
+/*Media query: Desktops and larger (2560px and up) */
+@media screen and (min-width:2560px){
+    #logo{
+        font-size: 450%;
+    }
+
+    nav{
+        font-size: 200%;
+    }
+
+    main{
+        margin-top: 117.6px;
+    }
+
 
 }
