@@ -109,6 +109,26 @@ main{
   text-align: center;   
 }
 
+/*Competition Entry*/
+#comp-entry{
+    background-color: rgba(51, 67, 103, .82);
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    align-items: center;
+    padding: 10px 15px;   
+    font-size: 130%;
+    z-index: 1;
+    margin-bottom: 20px;
+    border-radius:0px 10px 10px 0px;
+   }
+
+#comp-entry p{
+    text-align: center;
+    text-wrap: nowrap;
+}   
+
+
 /*Ride Guide About*/
 #rg-about p{
     color: #334367;
