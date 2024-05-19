@@ -181,7 +181,27 @@ main{
   text-align: center;
 }
 
+#rides{
+    display: block;    
+}
 
+#ride-name{
+    font-weight: bold;
+    font-size: 120%;
+    text-decoration-line: underline;
+}
+#height{
+
+}
+#park{
+
+}
+#location{
+
+}
+#type{
+
+}
 
 /* Footer */
 footer{
