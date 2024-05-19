@@ -104,9 +104,7 @@ main{
   color: #334367;
   padding:25px 10px ;
   font-size: 115%;
-  text-align: center;
-
-  
+  text-align: center;   
 }
 
 /*Ride Guide About*/
@@ -115,8 +113,16 @@ main{
     padding:10px 10px ;
     font-size: 110%;
     text-align: center;
-  }
+    border-bottom: 2px solid #d4af37;
+}
 
+#ride-img{
+    height: 90vw;
+    width: 90vw;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 15px 55px;    
+}
 
 /* Footer */
 footer{
