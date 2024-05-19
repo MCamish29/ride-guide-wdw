@@ -7,7 +7,7 @@
     box-sizing: border-box;
     /*General Project Styles*/
     font-family: 'Exo 2', sans-serif;
-    color: #635D5C;
+    color: #d4af37;
 }
 /*General styles*/
 body{
@@ -18,7 +18,7 @@ body{
 
 /* Header */
 header{
-    background-color: #ffffff;
+    background-color: #334367;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -33,7 +33,7 @@ header a{
 h1{
     font-family: 'Fugaz One', sans-serif;
     letter-spacing: 3px;
-    color: #4D4948;
+    color: #d4af37;
 }
 #menu{
     font-size: 110%;
@@ -44,14 +44,14 @@ h1{
     margin-bottom: 1em;
 }
 .active{
-    border-bottom: 2px dashed #635D5C;
+    border-bottom: 2px dashed #d4af37;
 }
 /*Navbar styles with dropdown toggle*/
 nav{
     position: absolute;
-    background-color: #ffffff;
+    background-color: #334367;
     width: 75%;
-    box-shadow: 0 2px 2px #4D4948;
+    box-shadow: 0 2px 2px #d4af37;
     padding: 0 1rem;
     right: 0;
     display: none;
@@ -107,7 +107,7 @@ footer{
     }
 
     #menu a:hover{
-        border-bottom: 3px solid #4D4948;
+        border-bottom: 3px solid #d4af37;
     }
 
     .nav-toggle-label{
@@ -124,7 +124,7 @@ footer{
 /*Media query: laptops and larger (992px and up) */
 @media screen and (min-width:992px) {
     #menu a:hover{
-        border-bottom: 3px solid #4D4948;
+        border-bottom: 3px solid #d4af37;
     }
     #logo{
         font-size: 250%;
