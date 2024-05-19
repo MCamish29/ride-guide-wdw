@@ -139,10 +139,8 @@ main{
 }
 
 #ride-img{
-    height: 90vw;
-    width: 90vw;
-    max-width: 300px;
-    max-height: 300px;
+    height: 300px;
+    width: 300px;    
     margin: 15px 55px;
     border-radius: 50%;     
 }
@@ -198,7 +196,7 @@ footer{
         display: flex;    
     }
     #menu > li{
-        padding-left: 1rem;
+        padding-left: 2rem;
     }
 
     #menu a:hover{
@@ -215,6 +213,20 @@ footer{
     main{
         margin-top: 53.2px;
     }
+    #cover-text{
+        width: 450px;
+        height: 175px;
+        position: absolute;
+        padding: 25px 15px;
+        font-size: 180%;
+        border-radius:0px 40px 40px 0px;
+        bottom: 350px;
+    }
+
+    #cover-text h2,h3,h4{
+        text-align: center;
+    }
+
     /*WDW About*/
     #wdw-about p{        
         font-size: 115%;
@@ -226,6 +238,20 @@ footer{
        font-size: 115%;
         text-align: center;
         margin:0px 85px;    
+    }
+
+    #comp-entry{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+        border-radius: 15px;
+    }
+
+    #ride-img{
+       height: 200px;
+       width: 200px;
+       margin: 25px;           
     }
     
 }    
@@ -241,15 +267,55 @@ footer{
     }
 
     nav{
-        font-size: 100%;
+        font-size: 110%;
         border: 0;
         
     }
     main{
         margin-top: 62.4px;
     }
-   
+    #comp-entry{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 340px;
+        border-radius: 15px;
+    }
 
+    #cover-text{
+        width: 450px;
+        height: 175px;
+        position: absolute;
+        padding: 25px 15px;
+        font-size: 180%;
+        border-radius:40px 40px 40px 40px;
+        bottom: 350px;
+        right:10px;
+    }
+    #ride-img{
+        height: 300px;
+        width: 300px;
+        margin: 15px;           
+     }
+
+     /*WDW About*/
+    #wdw-about p{        
+        font-size: 150%;
+        text-align: center;
+        margin:0px 85px;    
+    }
+  /*Ride Guide About*/
+    #rg-about p{        
+       font-size: 150%;
+        text-align: center;
+        margin:0px 85px;    
+    }
+    #ride-img{
+        height: 200px;
+        width: 200px;
+        margin: 25px;           
+     }
+     
 }    
 /*Media query: Desktops and larger (1200px and up) */
 @media screen and (min-width:1200px){
@@ -258,14 +324,36 @@ footer{
     }
 
     nav{
-        font-size: 120%;
+        font-size: 130%;
         border: 0;
     }
 
     main{
         margin-top: 83.51px;
     }
-    
+    #cover-text{
+        width: 450px;
+        height: 200px;
+        position: absolute;
+        padding: 20px 15px;
+        font-size: 220%;
+        border-radius:40px 40px 40px 40px;
+        bottom: 350px;
+        right:55px;
+    }
+    #comp-entry{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 32.5%;
+        border-radius: 15px;
+        font-size: 200%;
+    }
+    #ride-img{
+        height: 400px;
+        width: 400px;
+        margin: 25px;           
+     }
 
 }
 
@@ -283,6 +371,31 @@ footer{
     main{
         margin-top: 117.6px;
     }
-
+    #cover-text{
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        padding: 80px 15px;
+        font-size: 300%;
+        border-radius:40px 40px 40px 40px;
+        bottom: 200px;
+        right:300px;
+    }
+    #comp-entry{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 950px;
+        border-radius: 15px;
+        font-size: 250%;
+    }
+    #wdw-about p,#rg-about p{
+        font-size: 200%;
+    }
+    #ride-img{
+        height: 600px;
+        width: 600px;
+        margin: 25px;           
+     }
 
 }
