@@ -79,9 +79,22 @@ main{
 /* Footer */
 footer{
     background-color: #334367;
-    color: #d4af37;
+    
 }
 
+#social{
+    text-align: right;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social i{
+    font-size: 150%;
+    padding: 10%;
+    color: #d4af37;
+}
 
 /*Media query: Large or landscape phones (576px and up)*/
 @media  screen and (min-width:576px)
@@ -97,7 +110,7 @@ footer{
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;
+        padding-right: 0rem;
         font-size: 75%;
     }
 
@@ -117,8 +130,10 @@ footer{
     }
 
     #logo{
-        font-size: 200%;      
-        
+        font-size: 225%;                   
+    }
+    main{
+        margin-top: 53.2px;
     }
     
     
