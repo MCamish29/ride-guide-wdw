@@ -270,6 +270,11 @@ footer{
         font-size: 160%;
  
      }
+     #cover-text-ff{
+        width: 350px;
+        font-size: 160%;
+ 
+     }
 
 }
 
@@ -355,7 +360,13 @@ footer{
     #cover-text-ts{
        width: 350px;
        font-size: 160%;
+       padding: 25px 45px;
     }
+    #cover-text-ff{
+        width: 300px;
+        font-size: 160%;
+        padding: 25px 45px;
+     }
     
 }    
 /*Media query: laptops and larger (992px and up) */
@@ -481,6 +492,20 @@ footer{
         height: 100px;
         width: 400px;
     }
+    #ff-about{
+        font-size: 125%;
+        margin: 0 5%;
+    }
+    #cover-text-ff{
+        position: absolute;
+        padding: 15px 45px;
+        font-size: 220%;
+        border-radius:20px 20px 20px 20px;
+        bottom: 200px;
+        right:55px;
+        height: 100px;
+        width: 360px;
+    }
 }
 
 /*Media query: Desktops and larger (2560px and up) */
@@ -552,4 +577,18 @@ footer{
     #rides h3{
         font-size: 330%;
     }
+    #cover-text-ff{
+        position: absolute;
+        padding: 20px 15px;
+        font-size: 300%;
+        border-radius:40px 40px 40px 40px;
+        bottom: 200px;
+        right:55px;
+        height: 140px;
+        width: 550px;
+    }
+    #ff-about{
+        font-size: 175%;
+        margin: 0 5%;
+    }   
 }
