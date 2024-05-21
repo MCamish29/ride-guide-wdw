@@ -323,6 +323,7 @@ footer{
     }
     table{
         margin: 0px 15%;
+        font-size: 120%;
     }
     #cover-text-ts{
        width: 350px;
@@ -391,7 +392,7 @@ footer{
         margin: 25px;           
      }
     table{
-        margin: 0px 20%;
+        margin: 0px 15%;
     }
 }    
 /*Media query: Desktops and larger (1200px and up) */
@@ -433,14 +434,26 @@ footer{
      }
 
      table{
-        margin: 0px 20%;
-        font-size: 150%;
+        margin: 0px 25%;
+        font-size: 150%;   
+        display: flex; 
+        justify-content: center;
+        text-wrap: wrap;    
     }
     #ts-about{
         font-size: 125%;
         margin: 0 5%;
     }
-
+    #cover-text-ts{
+        position: absolute;
+        padding: 20px 15px;
+        font-size: 220%;
+        border-radius:40px 40px 40px 40px;
+        bottom: 200px;
+        right:55px;
+        height: 100px;
+        width: 400px;
+    }
 }
 
 /*Media query: Desktops and larger (2560px and up) */
@@ -483,5 +496,33 @@ footer{
         width: 600px;
         margin: 25px;           
      }
+     #cover-text-ts{
+        position: absolute;
+        padding: 20px 15px;
+        font-size: 300%;
+        border-radius:40px 40px 40px 40px;
+        bottom: 200px;
+        right:55px;
+        height: 140px;
+        width: 550px;
+    }
+    #ts-about{
+        font-size: 175%;
+        margin: 0 5%;
+    }
+    table{
+        margin: 0px 25%;
+        font-size: 200%;   
+        display: flex; 
+        justify-content: center;
+        text-wrap: wrap;    
+    }
 
+    #rides h2{    
+        font-size: 370%;    
+    }
+    
+    #rides h3{
+        font-size: 330%;
+    }
 }
