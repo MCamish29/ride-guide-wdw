@@ -187,8 +187,7 @@ main{
     color: #334367;
     text-align: center;
     margin: 10px 0px;
-    font-size: 180%;
-    text-wrap: nowrap;
+    font-size: 180%;    
 }
 
 #rides h3{
@@ -236,6 +235,15 @@ footer{
 /*Media query: Large or landscape phones (576px and up)*/
 @media  screen and (min-width:576px)
 {
+    table{
+        margin: 0px 15%;
+    }
+    #cover-text-ts{
+        width: 350px;
+        font-size: 160%;
+ 
+     }
+
 }
 
 
@@ -313,6 +321,13 @@ footer{
        width: 200px;
        margin: 25px;           
     }
+    table{
+        margin: 0px 15%;
+    }
+    #cover-text-ts{
+       width: 350px;
+       font-size: 160%;
+    }
     
 }    
 /*Media query: laptops and larger (992px and up) */
@@ -375,7 +390,9 @@ footer{
         width: 200px;
         margin: 25px;           
      }
-     
+    table{
+        margin: 0px 20%;
+    }
 }    
 /*Media query: Desktops and larger (1200px and up) */
 @media screen and (min-width:1200px){
@@ -414,6 +431,15 @@ footer{
         width: 400px;
         margin: 25px;           
      }
+
+     table{
+        margin: 0px 20%;
+        font-size: 150%;
+    }
+    #ts-about{
+        font-size: 125%;
+        margin: 0 5%;
+    }
 
 }
 
