@@ -211,6 +211,33 @@ td{
     padding: 10px 5px;
 }
 
+/*Family Fun Section*/
+#hero-ff{
+    background: url("../images/remys-epcot.webp") no-repeat center center/cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+    
+}
+
+#cover-text-ff{
+    background-color: rgba(51, 67, 103, .82);
+    width: 75%;
+    height: 100px;
+    position: absolute;
+    padding: 30px 15px;
+    font-size: 130%;
+    border-radius:0px 20px 20px 0px;
+    bottom: 100px;
+}
+#ff-about p{
+    color: #334367;
+  padding:20px 10px;
+  font-size: 115%;
+  text-align: center;
+}
+
+
 /* Footer */
 footer{
     border-top: 3px solid #d4af37;
