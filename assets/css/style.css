@@ -120,12 +120,13 @@ main{
     font-size: 130%;
     z-index: 1;
     margin-bottom: 20px;
-    border-radius:0px 10px 10px 0px;    
+    border-radius:0px 10px 10px 0px;        
    }
 
 #comp-entry p{
     text-align: center;
     text-wrap: nowrap;
+
 }   
 
 
@@ -260,7 +261,7 @@ form {
     text-wrap: nowrap; 
 }
 
-form label,p{
+form label p{
     font-size: 85%;
     color: #334367;  
     margin-bottom: 5px;  
@@ -276,6 +277,14 @@ button:hover{
     color: #334367;
 }
 
+
+/*404 Error page*/
+.container{
+    text-align: center;    
+}
+.error-img{
+    width: 50%;    
+}
 
 /* Footer */
 footer{
