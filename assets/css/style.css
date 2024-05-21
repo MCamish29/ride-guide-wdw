@@ -200,7 +200,7 @@ main{
 th{
     text-align: center;
     border-bottom: 1px solid #d4af37;
-    text-wrap: nowrap;
+  
     padding: 5px 0px;   
 }
 td{
@@ -208,7 +208,7 @@ td{
     text-align: center;
     border-bottom: 1px solid #d4af37;   
     font-size: 85%;
-    padding: 10px 5px;
+    padding: 10px 5px;    
 }
 
 /*Family Fun Section*/
@@ -550,28 +550,28 @@ footer{
      }
      #cover-text-ts{
         position: absolute;
-        padding: 20px 15px;
-        font-size: 300%;
+        padding: 35px 75px;
+        font-size: 400%;
         border-radius:40px 40px 40px 40px;
         bottom: 200px;
         right:55px;
-        height: 140px;
-        width: 550px;
+        height: 200px;
+        width: 800px;
     }
     #ts-about{
-        font-size: 175%;
+        font-size: 250%;
         margin: 0 5%;
     }
     table{
-        margin: 0px 25%;
-        font-size: 200%;   
+        margin: 0px 20%;
+        font-size: 300%;   
         display: flex; 
         justify-content: center;
         text-wrap: wrap;    
     }
 
     #rides h2{    
-        font-size: 370%;    
+        font-size: 400%;    
     }
     
     #rides h3{
@@ -579,16 +579,16 @@ footer{
     }
     #cover-text-ff{
         position: absolute;
-        padding: 20px 15px;
-        font-size: 300%;
+        padding: 30px 75px;
+        font-size: 400%;
         border-radius:40px 40px 40px 40px;
         bottom: 200px;
-        right:55px;
-        height: 140px;
-        width: 550px;
+        right:100px;
+        height: 200px;
+        width: 650px;
     }
     #ff-about{
-        font-size: 175%;
+        font-size: 250%;
         margin: 0 5%;
     }   
 }
