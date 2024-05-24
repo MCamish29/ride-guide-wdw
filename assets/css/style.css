@@ -135,18 +135,16 @@ main {
   border-bottom: 2px solid #d4af37;
 }
 /*Ride images on bottom of index*/
-
 .ride-img {
   height: 260px;
   width: 260px;
-  margin: 15px 55px;
+  margin: 15px 50px;
   border-radius: 50%;
 }
-#ride {
+.ride {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 /*Thrill Seekers*/
 /*Thrill Seekers Hero Section*/
@@ -376,7 +374,7 @@ footer {
     border-radius: 15px;
   }
   /*ride images located on bottom of index*/
-  #ride {
+  .ride {
     display: inline-block;
     vertical-align: middle;
     align-items: center;
@@ -463,7 +461,7 @@ footer {
     right: 10px;
   }
   /*Ride images on bottom of index*/
-  #ride {
+  .ride {
     display: inline-block;
     vertical-align: middle;
     align-items: center;
@@ -548,7 +546,7 @@ footer {
     font-size: 200%;
   }
   /*Ride image at bottom on index*/
-  #ride {
+  .ride {
     display: inline-block;
     vertical-align: middle;
     align-items: center;
@@ -662,7 +660,7 @@ footer {
     font-size: 200%;
   }
   /*Ride images at bottom of index*/
-  #ride {
+  .ride {
     display: inline-block;
     vertical-align: middle;
     align-items: center;
