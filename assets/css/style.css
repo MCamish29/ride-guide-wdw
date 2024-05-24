@@ -279,12 +279,14 @@ button:hover{
 
 
 /*404 Error page*/
-.container{
-    text-align: center;    
+#container p,h1,a{
+    text-align: center;
+    color: #334367;   
 }
-.error-img{
-    width: 50%;    
+#error-img{
+    margin-left: 42.5%;
 }
+
 
 /* Footer */
 footer{
