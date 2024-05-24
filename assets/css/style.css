@@ -196,7 +196,6 @@ tr th {
 th {
   text-align: center;
   border-bottom: 1px solid #d4af37;
-  border-width: 82%;
   padding: 5px 0px;
   font-size: 82.5%;
 }
@@ -204,7 +203,6 @@ td {
   color: #334367;
   text-align: center;
   border-bottom: 1px solid #d4af37;
-  border-width: 82%;
   font-size: 82.5%;
   padding: 10px 5px;
 }
@@ -654,7 +652,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 10%x;
+    margin-left: 10%;
     border-radius: 15px;
     font-size: 250%;
   }
