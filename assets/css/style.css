@@ -134,6 +134,7 @@ main {
   text-align: center;
   border-bottom: 2px solid #d4af37;
 }
+/*Ride images on bottom of index*/
 #ride {
   width: ;
 }
@@ -163,17 +164,19 @@ main {
   width: 75%;
   height: 100px;
   position: absolute;
-  padding: 30px 15px;
+  padding: 15px 15px;
   font-size: 130%;
   border-radius: 0px 20px 20px 0px;
   bottom: 100px;
 }
+/*About thrill seekers*/
 #ts-about p {
   color: #334367;
   padding: 20px 10px;
   font-size: 115%;
   text-align: center;
 }
+/*Tables on Family Fun and Thrill Seekers*/
 #rides h2 {
   color: #334367;
   text-align: center;
@@ -209,6 +212,7 @@ td {
   
 }
 /*Family Fun Section*/
+/*Family Fun Hero*/
 #hero-ff {
   background: url("../images/remys-epcot.webp") no-repeat center center/cover;
   width: 100%;
@@ -225,6 +229,7 @@ td {
   border-radius: 0px 20px 20px 0px;
   bottom: 100px;
 }
+/*About Family Fun Page*/
 #ff-about p {
   color: #334367;
   padding: 20px 10px;
@@ -232,6 +237,7 @@ td {
   text-align: center;
 }
 /*Competition Page*/
+/*Competition hero section*/
 #hero-comp {
   background: url("../images/comp-hero.webp") no-repeat center center/cover;
   width: 100%;
@@ -248,6 +254,7 @@ td {
   border-radius: 0px 20px 20px 0px;
   bottom: 75px;
 }
+/*Competition form*/
 form {
   margin: 2rem;
   color: #334367;
@@ -340,6 +347,7 @@ footer {
   main {
     margin-top: 53.2px;
   }
+  /*Hero section*/  
   #cover-text {
     width: 450px;
     height: 175px;
@@ -366,20 +374,24 @@ footer {
     text-align: center;
     margin: 0px 85px;
   }
+  /*Competition link on index*/
   #comp-entry {
     margin-left: 15%;
     align-items: center;
     border-radius: 15px;
   }
+  /*ride images located on bottom of index*/
   #ride-img {
     height: 200px;
     width: 200px;
     margin: 25px;
   }
+  /*table on family fun and thrill seekers*/
   table {
     margin: 0px 15%;
     font-size: 120%;
   }
+  /*Thrill seekers hero*/
   #cover-text-ts {
     width: 350px;
     font-size: 160%;
@@ -390,6 +402,7 @@ footer {
     font-size: 160%;
     padding: 25px 45px;
   }
+  /*competition page*/
   form {
     font-size: 125%;
     margin-left: 155px;
@@ -414,6 +427,7 @@ footer {
 }
 /*Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
+   /*Header*/ 
   #menu a:hover {
     border-bottom: 3px solid #d4af37;
   }
@@ -427,6 +441,7 @@ footer {
   main {
     margin-top: 62.4px;
   }
+  /*Competition link on index*/
   #comp-entry {
     display: flex;
     justify-content: center;
@@ -434,6 +449,7 @@ footer {
     margin-left: 15%;
     border-radius: 15px;
   }
+  /*Hero section*/
   #cover-text {
     width: 450px;
     height: 175px;
@@ -444,7 +460,8 @@ footer {
     bottom: 350px;
     right: 10px;
   }
-  #ride-img {
+  /*Ride images on bottom of index*/
+  .ride-img {
     height: 300px;
     width: 300px;
     margin: 15px;
@@ -461,14 +478,11 @@ footer {
     text-align: center;
     margin: 0px 85px;
   }
-  #ride-img {
-    height: 200px;
-    width: 200px;
-    margin: 25px;
-  }
+  /*Family fun and thrill seekers table*/
   table {
     margin: 0px 15%;
   }
+  /*competition form*/
   form {
     font-size: 125%;
     margin-left: 200px;
@@ -493,6 +507,7 @@ footer {
 }
 /*Media query: Desktops and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
+/*header*/
   #logo {
     font-size: 350%;
   }
@@ -503,6 +518,7 @@ footer {
   main {
     margin-top: 83.51px;
   }
+  /*hero section*/
   #cover-text {
     width: 450px;
     height: 200px;
@@ -513,6 +529,7 @@ footer {
     bottom: 350px;
     right: 55px;
   }
+  /*competition link on index*/
   #comp-entry {
     display: flex;
     justify-content: center;
@@ -521,11 +538,13 @@ footer {
     border-radius: 15px;
     font-size: 200%;
   }
-  #ride-img {
+/*Ride image at bottom on index*/
+  .ride-img {
     height: 400px;
     width: 400px;
     margin: 25px;
   }
+  /*family fun and thrill seekers table*/
   table {
     margin: 0px 25%;
     font-size: 150%;
@@ -533,6 +552,7 @@ footer {
     justify-content: center;
     text-wrap: wrap;
   }
+  /*Thrill seekers*/
   #ts-about {
     font-size: 125%;
     margin: 0 5%;
@@ -547,6 +567,7 @@ footer {
     height: 100px;
     width: 400px;
   }
+  /*Family fun*/
   #ff-about {
     font-size: 125%;
     margin: 0 5%;
@@ -561,6 +582,7 @@ footer {
     height: 100px;
     width: 360px;
   }
+  /*Competition form*/
   form {
     font-size: 175%;
     margin-left: 350px;
@@ -587,6 +609,7 @@ footer {
 
 /*Media query: Desktops and larger (2560px and up) */
 @media screen and (min-width: 2560px) {
+    /*header*/
   #logo {
     font-size: 450%;
   }
@@ -597,6 +620,7 @@ footer {
   main {
     margin-top: 117.6px;
   }
+  /*hero*/
   #cover-text {
     width: 600px;
     height: 400px;
@@ -607,6 +631,7 @@ footer {
     bottom: 200px;
     right: 300px;
   }
+  /*Competition entry on index*/
   #comp-entry {
     display: flex;
     justify-content: center;
@@ -615,15 +640,18 @@ footer {
     border-radius: 15px;
     font-size: 250%;
   }
+  /*About Walt Disney World and Ride Guide*/
   #wdw-about p,
   #rg-about p {
     font-size: 200%;
   }
-  #ride-img {
+  /*Ride images at bottom of index*/
+  .ride-img {
     height: 600px;
     width: 600px;
     margin: 25px;
   }
+  /*Thrill Seeekers*/
   #cover-text-ts {
     position: absolute;
     padding: 35px 75px;
@@ -638,7 +666,8 @@ footer {
     font-size: 250%;
     margin: 0 5%;
   }
-  table {
+  /*Table on Family Fun and Thrill Seekers*/
+    table {
     margin: 0px 20%;
     font-size: 300%;
     display: flex;
@@ -651,6 +680,7 @@ footer {
   #rides h3 {
     font-size: 330%;
   }
+  /*Family fun page*/
   #cover-text-ff {
     position: absolute;
     padding: 30px 75px;
@@ -665,6 +695,7 @@ footer {
     font-size: 250%;
     margin: 0 5%;
   }
+  /*Competition page*/
   form {
     font-size: 300%;
     margin-left: 350px;
