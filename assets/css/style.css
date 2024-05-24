@@ -119,6 +119,13 @@ main{
 #comp-entry p{
     text-align: center;
 }
+#about-comp p{
+    color: #334367;
+    text-align: center;    
+    font-weight: bolder;
+    font-size: larger;
+    margin: 20px;
+}
 /*Ride Guide About*/
 #rg-about p{
     color: #334367;
