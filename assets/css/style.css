@@ -135,14 +135,12 @@ main {
   border-bottom: 2px solid #d4af37;
 }
 /*Ride images on bottom of index*/
-#ride {
-  width: ;
-}
+
 .ride-img {
-  min-height: 260px;
-  min-width: 260px;
+  height: 260px;
+  width: 260px;
   margin: 15px 55px;
-  border-radius: 50%;
+  border-radius: 50%;  
 }
 #ride {
   display: flex;
@@ -381,11 +379,19 @@ footer {
     border-radius: 15px;
   }
   /*ride images located on bottom of index*/
-  #ride-img {
-    height: 200px;
-    width: 200px;
-    margin: 25px;
+  #ride{
+    display: inline-block;
+    vertical-align:middle;
+    align-items: center;
+
   }
+  .ride-img {
+    width: 200px;
+    height: 200px;
+    margin: 25px;
+    padding: 0px 20px;
+    align-items: center;
+  } 
   /*table on family fun and thrill seekers*/
   table {
     margin: 0px 15%;
@@ -461,11 +467,19 @@ footer {
     right: 10px;
   }
   /*Ride images on bottom of index*/
-  .ride-img {
-    height: 300px;
-    width: 300px;
-    margin: 15px;
+  #ride{
+    display: inline-block;
+    vertical-align:middle;
+    align-items: center;
+
   }
+  .ride-img {
+    width: 275px;
+    height: 275px;
+    margin: 30px;
+    padding: 0px 20px;
+    align-items: center;
+  } 
   /*WDW About*/
   #wdw-about p {
     font-size: 150%;
@@ -539,11 +553,19 @@ footer {
     font-size: 200%;
   }
 /*Ride image at bottom on index*/
-  .ride-img {
-    height: 400px;
-    width: 400px;
-    margin: 25px;
+#ride{
+    display: inline-block;
+    vertical-align:middle;
+    align-items: center;
+
   }
+  .ride-img {
+    width: 400px;
+    height: 400px;
+    margin:20px 20px;
+    padding: 0px 15px;
+    align-items: center;
+  } 
   /*family fun and thrill seekers table*/
   table {
     margin: 0px 25%;
@@ -646,11 +668,19 @@ footer {
     font-size: 200%;
   }
   /*Ride images at bottom of index*/
-  .ride-img {
-    height: 600px;
-    width: 600px;
-    margin: 25px;
+  #ride{
+    display: inline-block;
+    vertical-align:middle;
+    align-items: center;
+
   }
+  .ride-img {
+    width: 550px;
+    height: 550px;
+    margin:20px 75%;
+    padding: 0px 20px;
+    align-items: center;
+  } 
   /*Thrill Seeekers*/
   #cover-text-ts {
     position: absolute;
