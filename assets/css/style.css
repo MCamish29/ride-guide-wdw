@@ -14,9 +14,7 @@ body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    
 }
-
 /* Header */
 header{
     background-color: #334367;
@@ -24,7 +22,8 @@ header{
     position: fixed;
     z-index: 99;
     width: 100%;
-    display: flex;justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     align-items: baseline; 
     border-bottom: 4px solid #d4af37;   
 }
@@ -67,7 +66,6 @@ nav{
 #nav-toggle{
     display: none;
 }
-
 .nav-toggle-label{
     font: 2rem;
     font-size: 150%;
@@ -85,22 +83,19 @@ main{
     height: 800px;
     position: relative;
 }
-
 #cover-text{
     background-color: rgba(51, 67, 103, .82);
     width: 75%;
-    height: 175px;
+    height: 190px;
     position: absolute;
     padding: 40px 15px;
     font-size: 130%;
     border-radius:0px 40px 40px 0px;
     bottom: 350px;
 }
-
 #cover-text h4{
     font-style: italic;
 }
-
 /*WDW About*/
 #wdw-about p{
   color: #334367;
@@ -108,28 +103,22 @@ main{
   font-size: 115%;
   text-align: center;   
 }
-
 /*Competition Entry*/
 #comp-entry{
     background-color: rgba(51, 67, 103, .82);
-    display: flex;
+    display:block;
     justify-content: center;
-    width: max-content;
+    width: 70%;
     align-items: center;
-    padding: 10px 15px;   
-    font-size: 130%;
+    padding: 10px 5px;   
+    font-size: 100%;
     z-index: 1;
     margin-bottom: 20px;
     border-radius:0px 10px 10px 0px;        
-   }
-
+}
 #comp-entry p{
     text-align: center;
-    text-wrap: nowrap;
-
-}   
-
-
+}
 /*Ride Guide About*/
 #rg-about p{
     color: #334367;
@@ -138,33 +127,29 @@ main{
     text-align: center;
     border-bottom: 2px solid #d4af37;
 }
-
+#ride{
+    width: ;   
+}
 .ride-img{
-    height: 300px;
-    width: 300px;    
+    min-height: 260px;
+    min-width: 260px;
     margin: 15px 55px;
     border-radius: 50%;     
 }
-
 #ride{
     display: flex;
     justify-content: center;  
     align-items: center;
     flex-wrap: wrap;
 }
-
 /*Thrill Seekers*/
-
-
 /*Thrill Seekers Hero Section*/
 #hero-ts{
     background: url("../images/tower-of-terror.webp") no-repeat center center/cover;
     width: 100%;
     height: 500px;
-    position: relative;
-    
+    position: relative;    
 }
-
 #cover-text-ts{
     background-color: rgba(51, 67, 103, .82);
     width: 75%;
@@ -181,27 +166,27 @@ main{
   font-size: 115%;
   text-align: center;
 }
-
-
-
 #rides h2{    
     color: #334367;
     text-align: center;
     margin: 10px 0px;
     font-size: 180%;    
 }
-
 #rides h3{
     color: #334367;
     text-align: center;
     margin: 25px 0px;
     font-size: 160%;
 }
-
+table{
+    font-size: 90%;    
+}
+tr th{
+    color: #334367;
+}
 th{
     text-align: center;
-    border-bottom: 1px solid #d4af37;
-  
+    border-bottom: 1px solid #d4af37;  
     padding: 5px 0px;   
 }
 td{
@@ -211,16 +196,13 @@ td{
     font-size: 85%;
     padding: 10px 5px;    
 }
-
 /*Family Fun Section*/
 #hero-ff{
     background: url("../images/remys-epcot.webp") no-repeat center center/cover;
     width: 100%;
     height: 500px;
-    position: relative;
-    
+    position: relative;    
 }
-
 #cover-text-ff{
     background-color: rgba(51, 67, 103, .82);
     width: 75%;
@@ -237,7 +219,6 @@ td{
   font-size: 115%;
   text-align: center;
 }
-
 /*Competition Page*/
 #hero-comp{
     background: url("../images/comp-hero.webp") no-repeat center center/cover;
@@ -255,15 +236,18 @@ td{
     border-radius:0px 20px 20px 0px;
     bottom: 75px;
 }
-
 form {
     margin: 2rem;
-    text-wrap: nowrap; 
+    color: #334367;    
 }
-
-form label p{
-    font-size: 85%;
+form p{
+    font-size: 85%;      
+    margin-bottom: 5px;
     color: #334367;  
+}
+label{
+    color: #334367;
+    font-size: 85%;      
     margin-bottom: 5px;  
 }
 button{
@@ -271,30 +255,23 @@ button{
     padding: 2.5px 7px;
     border-radius: 5px;
 }
-
 button:hover{
     background-color: #d4af37;
     color: #334367;
 }
-
-
 /*404 Error page*/
-#container p,h1,a{
+#container{
     text-align: center;
     color: #334367;   
 }
 #error-img{
     margin-left: 42.5%;
 }
-
-
 /* Footer */
 footer{
     border-top: 3px solid #d4af37;
     background-color: #334367;
-    
 }
-
 #social{
     text-align: right;
     padding: 20px 0;
@@ -302,13 +279,11 @@ footer{
     justify-content: space-evenly;
     list-style-type: none;
 }
-
 #social i{
     font-size: 150%;
     padding: 10%;
     color: #d4af37;
 }
-
 /*Media query: Large or landscape phones (576px and up)*/
 @media  screen and (min-width:576px)
 {
@@ -317,18 +292,13 @@ footer{
     }
     #cover-text-ts{
         width: 350px;
-        font-size: 160%;
- 
+        font-size: 160%; 
      }
      #cover-text-ff{
         width: 350px;
-        font-size: 160%;
- 
+        font-size: 160%; 
      }
-
 }
-
-
 /*Media query: tablets and larger (768px and up) */
 @media screen and (min-width:768px) {
     /*Header*/
@@ -341,22 +311,18 @@ footer{
         font-size: 75%;
         border: 0;
     }
-
     #menu{
         display: flex;    
     }
     #menu > li{
         padding-left: 2rem;
     }
-
     #menu a:hover{
         border-bottom: 3px solid #d4af37;
     }
-
     .nav-toggle-label{
         display: none;
     }
-
     #logo{
         font-size: 225%;                   
     }
@@ -372,11 +338,9 @@ footer{
         border-radius:0px 40px 40px 0px;
         bottom: 350px;
     }
-
     #cover-text h2,h3,h4{
         text-align: center;
     }
-
     /*WDW About*/
     #wdw-about p{        
         font-size: 115%;
@@ -389,7 +353,6 @@ footer{
         text-align: center;
         margin:0px 85px;    
     }
-
     #comp-entry{
         display: flex;
         justify-content: center;
@@ -397,7 +360,6 @@ footer{
         margin-left: 32.5%;
         border-radius: 15px;
     }
-
     #ride-img{
        height: 200px;
        width: 200px;
@@ -416,8 +378,7 @@ footer{
         width: 300px;
         font-size: 160%;
         padding: 25px 45px;
-     }
-
+    }
     form{
         font-size: 125%;
         margin-left: 155px;
@@ -438,24 +399,19 @@ footer{
         font-size: 130%;
         border-radius:0px 20px 20px 0px;
         bottom: 75px;
-    }
-    
+    }    
 }    
 /*Media query: laptops and larger (992px and up) */
 @media screen and (min-width:992px) {
     #menu a:hover{
-        border-bottom: 3px solid #d4af37;
-        
-        
+        border-bottom: 3px solid #d4af37;    
     }
     #logo{
         font-size: 250%;
     }
-
     nav{
         font-size: 110%;
-        border: 0;
-        
+        border: 0;        
     }
     main{
         margin-top: 62.4px;
@@ -467,7 +423,6 @@ footer{
         margin-left: 36.5%;
         border-radius: 15px;
     }
-
     #cover-text{
         width: 450px;
         height: 175px;
@@ -482,8 +437,7 @@ footer{
         height: 300px;
         width: 300px;
         margin: 15px;           
-     }
-
+    }
      /*WDW About*/
     #wdw-about p{        
         font-size: 150%;
@@ -500,11 +454,10 @@ footer{
         height: 200px;
         width: 200px;
         margin: 25px;           
-     }
+    }
     table{
         margin: 0px 15%;
     }
-
     form{
         font-size: 125%;
         margin-left: 200px;
@@ -532,12 +485,10 @@ footer{
     #logo{
         font-size: 350%;
     }
-
     nav{
         font-size: 130%;
         border: 0;
     }
-
     main{
         margin-top: 83.51px;
     }
@@ -563,9 +514,8 @@ footer{
         height: 400px;
         width: 400px;
         margin: 25px;           
-     }
-
-     table{
+    }
+    table{
         margin: 0px 25%;
         font-size: 150%;   
         display: flex; 
@@ -629,12 +579,10 @@ footer{
     #logo{
         font-size: 450%;
     }
-
     nav{
         font-size: 200%;
         border: 0;
     }
-
     main{
         margin-top: 117.6px;
     }
@@ -663,7 +611,7 @@ footer{
         height: 600px;
         width: 600px;
         margin: 25px;           
-     }
+    }
      #cover-text-ts{
         position: absolute;
         padding: 35px 75px;
@@ -685,11 +633,9 @@ footer{
         justify-content: center;
         text-wrap: wrap;    
     }
-
     #rides h2{    
         font-size: 400%;    
-    }
-    
+    }    
     #rides h3{
         font-size: 330%;
     }
@@ -717,8 +663,7 @@ footer{
     button:hover{
         background-color: #d4af37;
         color: #334367;
-    }
-    
+    }    
     #cover-text-comp{
         background-color: rgba(51, 67, 103, .82);
         width: 500px;
