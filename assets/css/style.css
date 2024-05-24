@@ -139,7 +139,7 @@ main{
     border-bottom: 2px solid #d4af37;
 }
 
-#ride-img{
+.ride-img{
     height: 300px;
     width: 300px;    
     margin: 15px 55px;
