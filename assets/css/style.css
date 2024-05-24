@@ -140,7 +140,7 @@ main {
   height: 260px;
   width: 260px;
   margin: 15px 55px;
-  border-radius: 50%;  
+  border-radius: 50%;
 }
 #ride {
   display: flex;
@@ -207,7 +207,6 @@ td {
   border-width: 82%;
   font-size: 82.5%;
   padding: 10px 5px;
-  
 }
 /*Family Fun Section*/
 /*Family Fun Hero*/
@@ -345,7 +344,7 @@ footer {
   main {
     margin-top: 53.2px;
   }
-  /*Hero section*/  
+  /*Hero section*/
   #cover-text {
     width: 450px;
     height: 175px;
@@ -379,11 +378,10 @@ footer {
     border-radius: 15px;
   }
   /*ride images located on bottom of index*/
-  #ride{
+  #ride {
     display: inline-block;
-    vertical-align:middle;
+    vertical-align: middle;
     align-items: center;
-
   }
   .ride-img {
     width: 200px;
@@ -391,7 +389,7 @@ footer {
     margin: 25px;
     padding: 0px 20px;
     align-items: center;
-  } 
+  }
   /*table on family fun and thrill seekers*/
   table {
     margin: 0px 15%;
@@ -433,7 +431,7 @@ footer {
 }
 /*Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-   /*Header*/ 
+  /*Header*/
   #menu a:hover {
     border-bottom: 3px solid #d4af37;
   }
@@ -467,11 +465,10 @@ footer {
     right: 10px;
   }
   /*Ride images on bottom of index*/
-  #ride{
+  #ride {
     display: inline-block;
-    vertical-align:middle;
+    vertical-align: middle;
     align-items: center;
-
   }
   .ride-img {
     width: 275px;
@@ -479,7 +476,7 @@ footer {
     margin: 30px;
     padding: 0px 20px;
     align-items: center;
-  } 
+  }
   /*WDW About*/
   #wdw-about p {
     font-size: 150%;
@@ -521,7 +518,7 @@ footer {
 }
 /*Media query: Desktops and larger (1200px and up) */
 @media screen and (min-width: 1200px) {
-/*header*/
+  /*header*/
   #logo {
     font-size: 350%;
   }
@@ -552,20 +549,19 @@ footer {
     border-radius: 15px;
     font-size: 200%;
   }
-/*Ride image at bottom on index*/
-#ride{
+  /*Ride image at bottom on index*/
+  #ride {
     display: inline-block;
-    vertical-align:middle;
+    vertical-align: middle;
     align-items: center;
-
   }
   .ride-img {
     width: 400px;
     height: 400px;
-    margin:20px 20px;
+    margin: 20px 20px;
     padding: 0px 15px;
     align-items: center;
-  } 
+  }
   /*family fun and thrill seekers table*/
   table {
     margin: 0px 25%;
@@ -631,7 +627,7 @@ footer {
 
 /*Media query: Desktops and larger (2560px and up) */
 @media screen and (min-width: 2560px) {
-    /*header*/
+  /*header*/
   #logo {
     font-size: 450%;
   }
@@ -668,19 +664,18 @@ footer {
     font-size: 200%;
   }
   /*Ride images at bottom of index*/
-  #ride{
+  #ride {
     display: inline-block;
-    vertical-align:middle;
+    vertical-align: middle;
     align-items: center;
-
   }
   .ride-img {
     width: 550px;
     height: 550px;
-    margin:20px 75%;
+    margin: 20px 75%;
     padding: 0px 20px;
     align-items: center;
-  } 
+  }
   /*Thrill Seeekers*/
   #cover-text-ts {
     position: absolute;
@@ -697,7 +692,7 @@ footer {
     margin: 0 5%;
   }
   /*Table on Family Fun and Thrill Seekers*/
-    table {
+  table {
     margin: 0px 20%;
     font-size: 300%;
     display: flex;
