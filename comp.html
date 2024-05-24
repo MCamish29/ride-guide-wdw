@@ -1,108 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--Meta tags for search engines-->
-    <meta name="description" content="Ride Guide: Walt Disney World. A ride guide for all four theme parks in Walt Disney World">
-    <meta name="keywords" content="ride guide, ride, guide, Disney, Walt Disney, Walt Disney World, WDW, thrill, thrill seeker, family, family fun, Florida, Orlando, Magic Kingdom, Epcot, Hollywood Studios, Animal Kingdom, rollercoaster, dark ride, boat ride, train">
+    <meta
+      name="description"
+      content="Ride Guide: Walt Disney World. A ride guide for all four theme parks in Walt Disney World"
+    />
+    <meta
+      name="keywords"
+      content="ride guide, ride, guide, Disney, Walt Disney, Walt Disney World, WDW, thrill, thrill seeker, family, family fun, Florida, Orlando, Magic Kingdom, Epcot, Hollywood Studios, Animal Kingdom, rollercoaster, dark ride, boat ride, train"
+    />
     <!--Title-->
     <title>Ride Guide: Walt Disney World</title>
     <!--Favicon-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/roller-coaster-apple-touch-icon.png">
-    <link rel="icon" type="image/x-icon" sizes="32x32" href="assets/favicon/roller-coaster-32x32.png">
-    <link rel="icon" type="image/x-icon" sizes="16x16" href="assets/favicon/roller-coaster-16x16.png">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/roller-coaster-apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="32x32"
+      href="assets/favicon/roller-coaster-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      sizes="16x16"
+      href="assets/favicon/roller-coaster-16x16.png"
+    />
     <!--Stylesheet-->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <!--Header-->
     <header>
-        <a href="index.html">
-            <h1 id="logo">Ride Guide</h1>
-        </a>
-        <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="thrill.html">Thrill Seekers</a></li>
-                <li><a href="family.html">Family Fun</a></li>   
-                <li><a href="comp.html" class="active">Competition</a></li>
-            </ul>
-        </nav>        
+      <a href="index.html">
+        <h1 id="logo">Ride Guide</h1>
+      </a>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars"></i
+      ></label>
+      <nav>
+        <ul id="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="thrill.html">Thrill Seekers</a></li>
+          <li><a href="family.html">Family Fun</a></li>
+          <li><a href="comp.html" class="active">Competition</a></li>
+        </ul>
+      </nav>
     </header>
     <!--Main Content-->
     <main>
-        <section id="hero-comp">    
-            <div id="cover-text-comp">
-                <h2>Competition</h2>                              
-            </div>       
-        </section>
-        <div id="about-comp">
-            <p>Fill in the below survery to be entered into an exclusive prize draw!</p>
+      <section id="hero-comp">
+        <div id="cover-text-comp">
+          <h2>Competition</h2>
         </div>
-        <form action="thank-you.html">
-            <div>
-                <label for="f-name">First Name</label>
-                <input type="text" id="f-name" placeholder="First Name" required>
-            </div>
-            <br>
-            <div>   
-                <label for="l-name">Last Name</label>
-                <input type="text" id="l-name" placeholder="Last Name" required>
-            </div>
-            <br> 
-            <div>    
-                <label for="email">Email Address</label>
-                <input type="email" name="email" id="email" placeholder="Email Address" required>
-            </div>
-            <br>
-            <div>   
-                <p>How many times have you visited Walt Disney World?</p>
-                <label for="0">0</label>
-                <input type="radio" name="visit-time" id="0" value="0">
-                <label for="1">1</label>
-                <input type="radio" name="visit-time" id="1" value="1">
-                <label for="2">2</label>
-                <input type="radio" name="visit-time" id="2" value="2">
-                <label for="3">3</label>
-                <input type="radio" name="visit-time" id="3" value="3">
-                <label for="4">4</label>
-                <input type="radio" name="visit-time" id="4" value="4">
-                <label for="5">5+</label>
-                <input type="radio" name="visit-time" id="5" value="5">
-            </div>
-            <br>
-            <div> 
-                <p>What is your favourite ride at Walt Disney World?</p>
-                <input type="text" id="fav-ride" placeholder="Enter your favourite ride">
-            </div>
-            <br>
-            <div>
-                <p>Have you visited other Walt Disney theme parks?</p>
-                <label for="yes">Yes</label>
-                <input type="radio" name="visit-park" id="yes" value="no">
-                <label for="no">No</label>
-                <input type="radio" name="visit-park" id="no" value="no">
-            </div>
-            <br>
-            <div>
-                <button type="submit" value="submit">Submit</button> 
-                <button type="reset" value="reset">Reset</button>                   
-            </div>            
-        </form>
+      </section>
+      <div id="about-comp">
+        <p>
+          Fill in the below survery to be entered into an exclusive prize draw!
+        </p>
+      </div>
+      <form action="thank-you.html">
+        <div>
+          <label for="f-name">First Name</label>
+          <input type="text" id="f-name" placeholder="First Name" required />
+        </div>
+        <br />
+        <div>
+          <label for="l-name">Last Name</label>
+          <input type="text" id="l-name" placeholder="Last Name" required />
+        </div>
+        <br />
+        <div>
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <p>How many times have you visited Walt Disney World?</p>
+          <label for="0">0</label>
+          <input type="radio" name="visit-time" id="0" value="0" />
+          <label for="1">1</label>
+          <input type="radio" name="visit-time" id="1" value="1" />
+          <label for="2">2</label>
+          <input type="radio" name="visit-time" id="2" value="2" />
+          <label for="3">3</label>
+          <input type="radio" name="visit-time" id="3" value="3" />
+          <label for="4">4</label>
+          <input type="radio" name="visit-time" id="4" value="4" />
+          <label for="5">5+</label>
+          <input type="radio" name="visit-time" id="5" value="5" />
+        </div>
+        <br />
+        <div>
+          <p>What is your favourite ride at Walt Disney World?</p>
+          <input
+            type="text"
+            id="fav-ride"
+            placeholder="Enter your favourite ride"
+          />
+        </div>
+        <br />
+        <div>
+          <p>Have you visited other Walt Disney theme parks?</p>
+          <label for="yes">Yes</label>
+          <input type="radio" name="visit-park" id="yes" value="no" />
+          <label for="no">No</label>
+          <input type="radio" name="visit-park" id="no" value="no" />
+        </div>
+        <br />
+        <div>
+          <button type="submit" value="submit">Submit</button>
+          <button type="reset" value="reset">Reset</button>
+        </div>
+      </form>
     </main>
     <!--Footer-->
     <footer>
-        <ul id="social">
-            <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a></li>
-            <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a></li>
-            <li><a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in new tab)"><i class="fa-brands fa-x-twitter"></i></a></li>
-            <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a></li>
-        </ul>
+      <ul id="social">
+        <li>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Facebook page (opens in new tab)"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Instagram page (opens in new tab)"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.twitter.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Twitter page (opens in new tab)"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Visit our Youtube page (opens in new tab)"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
     <!--Font Awesome Kit-->
-    <script src="https://kit.fontawesome.com/a325659ab5.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/a325659ab5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
