@@ -367,7 +367,8 @@ A link to the deployed page can be found here - https://mcamish29.github.io/ride
     * Steps on how to create a custom 404 error page was taken from this video
 
 ### Content
-    * Ride information was obtained from Walt Disney World
+
+* Ride information was obtained from [Walt Disney World](https://www.disneyworld.co.uk/attractions/)
 
 ### Media
 
