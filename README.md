@@ -325,12 +325,25 @@ To ensure the icons on the footer opened the correct social media pages on a new
 - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
+![index.html validator result](docs/readme-images/index-validation.jpg)
+
+![thrill.html validator result](docs/readme-images/thrill-seekers-validation.jpg)
+
+![family.html validator result](docs/readme-images/family-fun-validation.jpg)
+
+![comp.html validator result](docs/readme-images/Competition-validation.jpg)
+
+![thank-you.html validator result](docs/readme-images/thank-you-validation.jpg)
+
+![404.html validator result](docs/readme-images/404-validation.jpg)
+
 - CSS
     - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)  
 
+![css validator result](docs/readme-images/css-validation.jpg)
 
 ### Unfixed bugs
-Responsiveness of the website worked on all devices The images on the index.html positioning needs to be address on larger screen sizes to have a better screen prescence
+Responsiveness of the website worked on all devices. The images on the index.html positioning needs to be address on larger screen sizes to have a better screen prescence
 
 ### Version Control
 
