@@ -272,12 +272,21 @@ button:hover {
   color: #334367;
 }
 /*404 Error page and thank you page*/
-#container {
+#container h1{
+  text-align: center;
+  color: #334367;
+}
+#container p{
+  text-align: center;
+  color: #334367;
+}
+#container{
+  margin-top: 200px;
   text-align: center;
   color: #334367;
 }
 #error-img {
-  margin-left: 42.5%;
+  align-items: center;
 }
 /* Footer */
 footer {
