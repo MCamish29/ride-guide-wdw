@@ -118,10 +118,11 @@ Ride Guide: Walt Disney World is a website that allows users to look for informa
     * An external file was used for the syling of the website
 * Visual Studio Code
     * The development of the website was done using Visul Studio Code IDE
+    * Git commits were done using Visual Studio Code
 * GitHub
     * Source code is hosted on GitHub and deployed using Git Pages
 * Git/ GitHub Desktop
-    * Used to commint and pushcode during development
+    * Used to pushcode during development
 * Font Awesome
     * https://fontawesome.com/ was used to obtain icons for social media links and dropdown nav bar
 * Tinyjpg
@@ -132,6 +133,10 @@ Ride Guide: Walt Disney World is a website that allows users to look for informa
     * https://convertio.co/ was used to convert jpg & png images into webp
 * Pexels
     * https://www.pexels.com/ was used to obtain free stock images used across website 
+* Unsplash
+    * https://unsplash.com/ was used to obtain free stock images used across website
+ * Pixabay
+    * https://pixabay.com/  was used to obtain free stock images used across website 
 
 ## Testing
 
@@ -172,5 +177,185 @@ Issue: Contrast errors we found on Thrill Seekers, Family Fun and Competition pa
 
 Fix: Font color adjusted to matching theming of page
 
+### Lighthouse Testing
+
+![Home](docs/readme-images/index-lighthouse.jpg)
+
+![Thrill-Seekers](docs/readme-images/thrill-seekers-lighthouse.jpg)
+
+![Family-Fun](docs/readme-images/family-fun-lighthouse.jpg)
+
+![Competition](docs/readme-images/competition-lighthouse.jpg)
+
+![Thank-You](docs/readme-images/thank-you-lighthouse.jpg)
+
+### Functional Testing
+
+**Navigation**
+
+Through out development testing was carried out to ensure all links on pages navigated to relevant pages. The user can complete these with clicking on naviagation links found on all pages
+
+**Navigation Bar**
+
+| Navigation Link | Page to Load |
+| --------------- | ------------ |
+| Home            | index.html   |
+| Thrill Seekers  | thrill.html  |
+| Family Fun      | family.html  |
+| Competition     | comp.html    |
+
+**Competition Link**
+
+| Navigation Link                     | Page to Load |
+| ----------------------------------- | ------------ |
+| Click here to enter our competition | comp.html    |
+
+**404 Return**
+
+| Navigation Link              | Page to Load |
+| ---------------------------- | ------------ |
+| please click here to go back | index.html   |
+
+**Form Testing**
+
+The form on the competition page was tested to ensure it functioned as planned when correct or incorrect data was input. The following tests were conducted.
+
+*Test 1: Enter correct information*
+
+1. Navigate to competition page
+2. Enter first name
+3. Enter last name
+4. Enter email address
+5. Select radio button option
+6. Enter text in text field option
+7. Select radio button option
+8. Click submit
+
+Expected:
+Form submits with no errors taking user to thank-you.html page
+
+Actual:
+Website displayed no errors resulting in successful submission taking user to thank-you.html
+
+![form-test1](docs/readme-images/form-test1.jpg)
 
 
+*Test 2: Missing first name field*
+
+1. Navigate to competition page
+2. Leave first name blank
+3. Enter last name
+4. Enter email address
+5. Select radio button option
+6. Enter text in text field option
+7. Select radio button option
+8. Click submit
+
+Expected:
+Form displays require field error and form is not able to submit
+
+Actual:
+Website displayed error highlighting to use this field is required to submit
+
+![form-test1](docs/readme-images/form-test2.jpg)
+
+*Test 3: Missing last name field*
+
+1. Navigate to competition page
+2. Enter first name 
+3. Leave last name blank
+4. Enter email address
+5. Select radio button option
+6. Enter text in text field option
+7. Select radio button option
+8. Click submit
+
+Expected:
+Form displays require field error and form is not able to submit
+
+Actual:
+Website displayed error highlighting to use this field is required to submit
+
+![form-test1](docs/readme-images/form-test3.jpg)
+
+*Test 4: Missing @ in email field*
+
+1. Navigate to competition page
+2. Enter first name 
+3. Enter last name
+4. Enter email address without @
+5. Select radio button option
+6. Enter text in text field option
+7. Select radio button option
+8. Click submit
+
+Expected:
+Form displays require field error and form is not able to submit
+
+Actual:
+Website displayed error highlighting to use this field is required to submit
+
+![form-test1](docs/readme-images/form-test4.jpg)
+
+*Test 5: Leave non-required information blank*
+
+1. Navigate to competition page
+2. Enter first name
+3. Enter last name
+4. Enter email address
+5. Do not select radio button option
+6. Leave text field option blank
+7. Do not select radio button option
+8. Click submit
+
+Expected:
+Form submits with no errors taking user to thank-you.html page
+
+Actual:
+Website displayed no errors resulting in successful submission taking user to thank-you.html
+
+![form-test1](docs/readme-images/form-test5.jpg)
+
+**Footer Social Media Icons/ Links**
+
+To ensure the icons on the footer opened the correct social media pages on a new tab, each icon was clicked on and opened as expected.
+
+### Validator Testing
+
+- HTML
+    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+
+- CSS
+    - No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)  
+
+
+### Unfixed bugs
+Responsiveness of the website worked on all devices The images on the index.html positioning needs to be address on larger screen sizes to have a better screen prescence
+
+### Version Control
+
+The website was created and commited using Visual Studio Code, to be then pushed by GitHub desktop to the remote repository 'ride-guide-wdw'
+
+### Deployment to GitHub Pages
+
+The site was deployed to GitHub pages. 
+- The steps to deploy are as follows: 
+  - On the repository for 'ride-guide-wdw' select settings ont he navigation options along the top
+  - Select 'Pages' on the left hand side
+  - Select 'Main' as the source branch
+  - Click the save button
+  - A newly created link to the website will be created
+
+A link to the deployed page can be found here - https://mcamish29.github.io/ride-guide-wdw/
+
+## Credits
+
+* [Custom 404 page](https://www.youtube.com/watch?v=Jj42_s3KnuM)
+    * Steps on how to create a custom 404 error page was taken from this video
+
+### Content
+    * Ride information was obtained from Walt Disney World
+
+### Media
+
+* Media was taken from freestock websites such as [Pexels](https://www.pexels.com/), [Pixabay](https://pixabay.com/) and [Unsplash](https://unsplash.com/)
