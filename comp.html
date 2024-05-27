@@ -38,8 +38,9 @@
       </a>
       <input type="checkbox" id="nav-toggle" name="nav-toggle">
       <label for="nav-toggle" class="nav-toggle-label"
-        ><i class="fa-solid fa-bars"></i
-      ></label>
+        ><i class="fa-solid fa-bars"></i>
+        <span class="sr-only">Click to toggle mobile menu</span>
+      </label>
       <nav>
         <ul id="menu">
           <li><a href="index.html">Home</a></li>
@@ -102,6 +103,7 @@
           <p>What is your favourite ride at Walt Disney World?</p>          
           <input
             type="text"
+            aria-label="Enter your favourite ride"
             id="fav-ride"
             placeholder="Enter your favourite ride">
         </div>

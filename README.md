@@ -345,9 +345,17 @@ To ensure the icons on the footer opened the correct social media pages on a new
 ### Unfixed bugs
 Responsiveness of the website worked on all devices. The images on the index.html positioning needs to be address on larger screen sizes to have a better screen prescence
 
+## Deployment
+
 ### Version Control
 
 The website was created and commited using Visual Studio Code, to be then pushed by GitHub desktop to the remote repository 'ride-guide-wdw'
+
+The following git commands were used throughout development to push code to the remote repo:
+
+- git add <*file*>
+- git commit -m "commit message"
+- git push
 
 ### Deployment to GitHub Pages
 
@@ -360,6 +368,18 @@ The site was deployed to GitHub pages.
   - A newly created link to the website will be created
 
 A link to the deployed page can be found here - https://mcamish29.github.io/ride-guide-wdw/
+
+### Clone the Repository Code Locally
+
+Navigate to the GitHub Repository you want to clone to use locally on IDE:
+
+* Click on the code drop down button
+* Click on HTTPS
+* Copy the repository link to the clipboard
+* Open your IDE of choice (ensure you have git installed as it is require for next step)
+* Type git clone copied-git-url into the IDE terminal
+
+The repository has now been cloned onto local IDE for use.
 
 ## Credits
 
