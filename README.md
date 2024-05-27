@@ -386,6 +386,9 @@ The repository has now been cloned onto local IDE for use.
 * [Custom 404 page](https://www.youtube.com/watch?v=Jj42_s3KnuM)
     * Steps on how to create a custom 404 error page was taken from this video
 
+* [Hidden CSS](https://css-tricks.com/inclusively-hidden/)
+    * Steps on how to hide certain elements and tags were taken from this link
+
 ### Content
 
 * Ride information was obtained from [Walt Disney World](https://www.disneyworld.co.uk/attractions/)
